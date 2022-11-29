@@ -32,7 +32,8 @@ const promise1 = new Promise((resolve, reject) => {
   
   //REJECTED-leave a bad review,no tip
   const getSoup = async () => {
-    const data ={rating:0,tip:0,pay:0,review:0}
+    //null / undefinied
+    const data ={rating:null,tip:null,pay:null,review:null}
   
     
     try{ const soup =await promise1
